@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url('./images/pattern.jpeg');
+}
+
+main {
+    padding: 0 10px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
