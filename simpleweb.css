@@ -6,10 +6,16 @@
 
 header {
     background-image: url('./images/pattern.jpeg');
+    
 }
 
-main {
-    padding: 0 10px;
+body {
+    display: block;
+    margin-top: 8px;
+}
+
+section {
+    margin: 50px 0 0 0;
 }
 
 h1 {
@@ -17,6 +23,7 @@ h1 {
     font-weight: bold;
     color: khaki;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -24,4 +31,31 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     color: white;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    margin: 20px 0 20px 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+strong {
+    font-weight: bold;
+    color: blue;
 }
